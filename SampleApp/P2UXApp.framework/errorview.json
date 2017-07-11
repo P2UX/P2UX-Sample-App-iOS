@@ -1,0 +1,179 @@
+{
+    "systemtype": "Standard",
+    "ident": "load_error",
+    "name": {
+        "en_US": "Load Error"
+    },
+    "attributes": {
+        "editor": {
+            "canvas": {
+                "name": "iPhone 5",
+                "width": 320,
+                "height": 568,
+                "inmodel": true
+            }
+        }
+    },
+    "background": {
+        "type": 0,
+        "val": "#ffffff",
+        "opacity": 1
+    },
+    "events": [],
+    "controls": [
+                 {
+                 "ctrl": 3,
+                 "visible": true,
+                 "itemspec": {
+                 "color": "#000000ff",
+                 "font": {
+                 "name": "Normal",
+                 "size": {
+                 "val": 24,
+                 "type": 0
+                 }
+                 },
+                 "hAlign": "center",
+                 "val": {
+                 "en_US": "Unable to start\napplication"
+                 }
+                 },
+                 "size": {
+                 "w": {
+                 "val": 0.796875,
+                 "type": 1
+                 },
+                 "h": {
+                 "val": 88.39999999999998,
+                 "type": 0
+                 }
+                 },
+                 "position": {
+                 "x": {
+                 "val": 0,
+                 "type": 1,
+                 "reltype": 1
+                 },
+                 "y": {
+                 "val": 0.09612676056338028,
+                 "type": 1
+                 }
+                 },
+                 "name": "label1",
+                 "id": "label1",
+                 "opacity": 1,
+                 "type": "standard"
+                 },
+                 {
+                 "ctrl": 3,
+                 "visible": true,
+                 "itemspec": {
+                 "color": "#000000ff",
+                 "font": {
+                 "name": "Normal",
+                 "size": {
+                 "val": 18,
+                 "type": 0
+                 }
+                 },
+                 "hAlign": "left",
+                 "val": {
+                 "en_US": "Error Reason:"
+                 },
+                 "vAlign": "top"
+                 },
+                 "size": {
+                 "w": {
+                 "val": 0.65,
+                 "type": 1
+                 },
+                 "h": {
+                 "val": 25.600000000000023,
+                 "type": 0
+                 }
+                 },
+                 "position": {
+                 "x": {
+                 "val": -0.0140625,
+                 "type": 1,
+                 "reltype": 1
+                 },
+                 "y": {
+                 "val": 0.2982394366197183,
+                 "type": 1
+                 }
+                 },
+                 "name": "label3",
+                 "id": "label3",
+                 "opacity": 1,
+                 "type": "standard"
+                 },
+                 {
+                 "ctrl": 3,
+                 "visible": true,
+                 "itemspec": {
+                 "color": "#000000ff",
+                 "font": {
+                 "name": "Normal",
+                 "size": {
+                 "val": 18,
+                 "type": 0
+                 }
+                 },
+                 "hAlign": "left",
+                 "val": {
+                 "en_US": "No app definition"
+                 },
+                 "vAlign": "top"
+                 },
+                 "size": {
+                 "w": {
+                 "val": 0.65,
+                 "type": 1
+                 },
+                 "h": {
+                 "val": 0.5,
+                 "type": 1
+                 }
+                 },
+                 "position": {
+                 "x": {
+                 "val": -0.0140625,
+                 "type": 1,
+                 "reltype": 1
+                 },
+                 "y": {
+                 "val": 8,
+                 "type": 0,
+                 "reltype": 8,
+                 "id": "label3"
+                 }
+                 },
+                 "systemtype":"errormsg",
+                 "name": "label2",
+                 "id": "label2",
+                 "opacity": 1,
+                 "type": "standard"
+                 }
+                 ],
+    "size": {
+        "w": {
+            "type": 1,
+            "val": 1
+        },
+        "h": {
+            "type": 1,
+            "val": 1
+        }
+    },
+    "position": {
+        "y": {
+            "type": 1,
+            "val": 0
+        },
+        "x": {
+            "type": 1,
+            "val": 0
+        }
+    }
+}
