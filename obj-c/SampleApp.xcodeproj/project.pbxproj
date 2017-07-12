@@ -12,8 +12,6 @@
 		299DBE4F1F145056004285F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE4E1F145056004285F3 /* ViewController.m */; };
 		299DBE541F145056004285F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299DBE531F145056004285F3 /* Assets.xcassets */; };
 		299DBE571F145056004285F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299DBE551F145056004285F3 /* LaunchScreen.storyboard */; };
-		299DBE621F145056004285F3 /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE611F145056004285F3 /* SampleAppTests.m */; };
-		299DBE6D1F145056004285F3 /* SampleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE6C1F145056004285F3 /* SampleAppUITests.m */; };
 		299DBE7C1F145128004285F3 /* SampleBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE7B1F145128004285F3 /* SampleBehavior.m */; };
 		299DBE811F1452CB004285F3 /* P2UXApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299DBE7D1F145270004285F3 /* P2UXApp.framework */; };
 		299DBE821F1452CB004285F3 /* P2UXApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 299DBE7D1F145270004285F3 /* P2UXApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -64,11 +62,7 @@
 		299DBE561F145056004285F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299DBE581F145056004285F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299DBE5D1F145056004285F3 /* SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		299DBE611F145056004285F3 /* SampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppTests.m; sourceTree = "<group>"; };
-		299DBE631F145056004285F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299DBE681F145056004285F3 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		299DBE6C1F145056004285F3 /* SampleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppUITests.m; sourceTree = "<group>"; };
-		299DBE6E1F145056004285F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299DBE7A1F145128004285F3 /* SampleBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleBehavior.h; sourceTree = "<group>"; };
 		299DBE7B1F145128004285F3 /* SampleBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleBehavior.m; sourceTree = "<group>"; };
 		299DBE7D1F145270004285F3 /* P2UXApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2UXApp.framework; sourceTree = "<group>"; };
@@ -106,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				299DBE461F145056004285F3 /* SampleApp */,
-				299DBE601F145056004285F3 /* SampleAppTests */,
-				299DBE6B1F145056004285F3 /* SampleAppUITests */,
 				299DBE451F145056004285F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,8 +117,7 @@
 		299DBE461F145056004285F3 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				299DBE7D1F145270004285F3 /* P2UXApp.framework */,
-				299DBE7E1F145270004285F3 /* P2UXCore.framework */,
+				AA8BED0B1F16AB8A002CB085 /* P2UX */,
 				299DBE4A1F145056004285F3 /* AppDelegate.h */,
 				299DBE4B1F145056004285F3 /* AppDelegate.m */,
 				299DBE4D1F145056004285F3 /* ViewController.h */,
@@ -149,22 +140,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		299DBE601F145056004285F3 /* SampleAppTests */ = {
+		AA8BED0B1F16AB8A002CB085 /* P2UX */ = {
 			isa = PBXGroup;
 			children = (
-				299DBE611F145056004285F3 /* SampleAppTests.m */,
-				299DBE631F145056004285F3 /* Info.plist */,
+				299DBE7D1F145270004285F3 /* P2UXApp.framework */,
+				299DBE7E1F145270004285F3 /* P2UXCore.framework */,
 			);
-			path = SampleAppTests;
-			sourceTree = "<group>";
-		};
-		299DBE6B1F145056004285F3 /* SampleAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				299DBE6C1F145056004285F3 /* SampleAppUITests.m */,
-				299DBE6E1F145056004285F3 /* Info.plist */,
-			);
-			path = SampleAppUITests;
+			name = P2UX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299DBE621F145056004285F3 /* SampleAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299DBE6D1F145056004285F3 /* SampleAppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +514,7 @@
 				299DBE731F145056004285F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		299DBE741F145056004285F3 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +523,7 @@
 				299DBE761F145056004285F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		299DBE771F145056004285F3 /* Build configuration list for PBXNativeTarget "SampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +532,7 @@
 				299DBE791F145056004285F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
