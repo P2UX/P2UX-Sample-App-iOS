@@ -1,6 +1,0 @@
-framework module P2UXApp {
-  umbrella header "P2UXApp.h"
-
-  export *
-  module * { export * }
-}
