@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		299DBE491F145056004285F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE481F145056004285F3 /* main.m */; };
 		299DBE4C1F145056004285F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE4B1F145056004285F3 /* AppDelegate.m */; };
-		299DBE4F1F145056004285F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE4E1F145056004285F3 /* ViewController.m */; };
+		299DBE4F1F145056004285F3 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE4E1F145056004285F3 /* SampleViewController.m */; };
 		299DBE541F145056004285F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299DBE531F145056004285F3 /* Assets.xcassets */; };
 		299DBE571F145056004285F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299DBE551F145056004285F3 /* LaunchScreen.storyboard */; };
 		299DBE7C1F145128004285F3 /* SampleBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE7B1F145128004285F3 /* SampleBehavior.m */; };
-		299DBE811F1452CB004285F3 /* P2UXApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299DBE7D1F145270004285F3 /* P2UXApp.framework */; };
-		299DBE821F1452CB004285F3 /* P2UXApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 299DBE7D1F145270004285F3 /* P2UXApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		299DBE831F1452CB004285F3 /* P2UXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299DBE7E1F145270004285F3 /* P2UXCore.framework */; };
-		299DBE841F1452CB004285F3 /* P2UXCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 299DBE7E1F145270004285F3 /* P2UXCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA8BED3C1F16D91E002CB085 /* P2UXApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8BED3A1F16D91E002CB085 /* P2UXApp.framework */; };
+		AA8BED3D1F16D91E002CB085 /* P2UXApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA8BED3A1F16D91E002CB085 /* P2UXApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA8BED3E1F16D91E002CB085 /* P2UXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8BED3B1F16D91E002CB085 /* P2UXCore.framework */; };
+		AA8BED3F1F16D91E002CB085 /* P2UXCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA8BED3B1F16D91E002CB085 /* P2UXCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				299DBE841F1452CB004285F3 /* P2UXCore.framework in Embed Frameworks */,
-				299DBE821F1452CB004285F3 /* P2UXApp.framework in Embed Frameworks */,
+				AA8BED3F1F16D91E002CB085 /* P2UXCore.framework in Embed Frameworks */,
+				AA8BED3D1F16D91E002CB085 /* P2UXApp.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,8 +56,8 @@
 		299DBE481F145056004285F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		299DBE4A1F145056004285F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		299DBE4B1F145056004285F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		299DBE4D1F145056004285F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		299DBE4E1F145056004285F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		299DBE4D1F145056004285F3 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		299DBE4E1F145056004285F3 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		299DBE531F145056004285F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299DBE561F145056004285F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299DBE581F145056004285F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		299DBE681F145056004285F3 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299DBE7A1F145128004285F3 /* SampleBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleBehavior.h; sourceTree = "<group>"; };
 		299DBE7B1F145128004285F3 /* SampleBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleBehavior.m; sourceTree = "<group>"; };
-		299DBE7D1F145270004285F3 /* P2UXApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2UXApp.framework; sourceTree = "<group>"; };
-		299DBE7E1F145270004285F3 /* P2UXCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = P2UXCore.framework; sourceTree = "<group>"; };
+		AA8BED3A1F16D91E002CB085 /* P2UXApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P2UXApp.framework; path = ../p2ux/P2UXApp.framework; sourceTree = "<group>"; };
+		AA8BED3B1F16D91E002CB085 /* P2UXCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P2UXCore.framework; path = ../p2ux/P2UXCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299DBE831F1452CB004285F3 /* P2UXCore.framework in Frameworks */,
-				299DBE811F1452CB004285F3 /* P2UXApp.framework in Frameworks */,
+				AA8BED3E1F16D91E002CB085 /* P2UXCore.framework in Frameworks */,
+				AA8BED3C1F16D91E002CB085 /* P2UXApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +99,7 @@
 		299DBE3B1F145056004285F3 = {
 			isa = PBXGroup;
 			children = (
+				AA8BED0B1F16AB8A002CB085 /* P2UX */,
 				299DBE461F145056004285F3 /* SampleApp */,
 				299DBE451F145056004285F3 /* Products */,
 			);
@@ -117,17 +118,16 @@
 		299DBE461F145056004285F3 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				AA8BED0B1F16AB8A002CB085 /* P2UX */,
 				299DBE4A1F145056004285F3 /* AppDelegate.h */,
 				299DBE4B1F145056004285F3 /* AppDelegate.m */,
-				299DBE4D1F145056004285F3 /* ViewController.h */,
-				299DBE4E1F145056004285F3 /* ViewController.m */,
 				299DBE531F145056004285F3 /* Assets.xcassets */,
 				299DBE551F145056004285F3 /* LaunchScreen.storyboard */,
 				299DBE581F145056004285F3 /* Info.plist */,
 				299DBE471F145056004285F3 /* Supporting Files */,
 				299DBE7A1F145128004285F3 /* SampleBehavior.h */,
 				299DBE7B1F145128004285F3 /* SampleBehavior.m */,
+				299DBE4D1F145056004285F3 /* SampleViewController.h */,
+				299DBE4E1F145056004285F3 /* SampleViewController.m */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -143,10 +143,11 @@
 		AA8BED0B1F16AB8A002CB085 /* P2UX */ = {
 			isa = PBXGroup;
 			children = (
-				299DBE7D1F145270004285F3 /* P2UXApp.framework */,
-				299DBE7E1F145270004285F3 /* P2UXCore.framework */,
+				AA8BED3A1F16D91E002CB085 /* P2UXApp.framework */,
+				AA8BED3B1F16D91E002CB085 /* P2UXCore.framework */,
 			);
 			name = P2UX;
+			path = SampleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +161,7 @@
 				299DBE411F145056004285F3 /* Frameworks */,
 				299DBE421F145056004285F3 /* Resources */,
 				299DBE851F1452CB004285F3 /* Embed Frameworks */,
+				AA8BED351F16D846002CB085 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -276,12 +278,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AA8BED351F16D846002CB085 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./p2ux/postbuild.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		299DBE401F145056004285F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299DBE4F1F145056004285F3 /* ViewController.m in Sources */,
+				299DBE4F1F145056004285F3 /* SampleViewController.m in Sources */,
 				299DBE7C1F145128004285F3 /* SampleBehavior.m in Sources */,
 				299DBE4C1F145056004285F3 /* AppDelegate.m in Sources */,
 				299DBE491F145056004285F3 /* main.m in Sources */,
@@ -426,10 +444,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SampleApp",
+					"$(PROJECT_DIR)/p2ux",
 				);
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = p2i.SampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.p2ux.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,10 +460,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SampleApp",
+					"$(PROJECT_DIR)/p2ux",
 				);
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = p2i.SampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.p2ux.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

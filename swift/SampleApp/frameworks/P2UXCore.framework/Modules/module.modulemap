@@ -1,0 +1,6 @@
+framework module P2UXCore {
+  umbrella header "P2UXCore.h"
+
+  export *
+  module * { export * }
+}
