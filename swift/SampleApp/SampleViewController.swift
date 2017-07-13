@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SampleViewController.swift
 //  SampleApp
 //
 //  Created by Stephen Schalkhauser on 7/12/17.

@@ -1,3 +1,11 @@
+//
+//  SampleBehavior.m
+//  SampleApp
+//
+//  Copyright © 2017 P2UX, Inc. All rights reserved.
+//
+
+
 #import "SampleBehavior.h"
 #import "SampleViewController.h"
 @import P2UXApp;
