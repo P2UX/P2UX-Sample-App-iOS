@@ -21,7 +21,7 @@
     // to the createApplicationWithKey method to intialize the P2UX rendering framework
     NSString* appKey = @"0006.f058b95ac4e851b47424d19ff2cd4bf69ec70383187cb5fd0b02a2978f08d13e"; //Adopt A Pet app
     NSDictionary* opts = @{P2UXAppCreator_Opt_Env: P2UXAppCreator_Opt_Env_Prototype, P2UXAppCreator_Opt_LogLevel:[NSNumber numberWithInteger:P2UXCoreLogLevelVerbose]};
-    self.window = [P2UXAppCreator createApplicationWithKey:appKey opts:opts resources:nil delegate:self];
+    [P2UXAppCreator createApplicationWithKey:appKey opts:opts resources:nil delegate:self];
     return YES;
 }
 
