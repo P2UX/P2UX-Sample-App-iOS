@@ -11,17 +11,7 @@
  
  The user should replace "xxxxx" with an appropriate name of the item being customized.
  
-<<<<<<< HEAD:obj-c/SampleApp/SampleBehavior.m
-<<<<<<< HEAD:SampleApp/SampleBehavior.m
  Other possible behaviors that can be customized can be found in P2UXAppBehavior.*/
-=======
- Other possible behaviors that can be customized can be found in P2UXAppBehavior.
-*/
->>>>>>> c707ccbf86de4934277ec5571fa1511da7d9f694:obj-c/SampleApp/SampleBehavior.m
-=======
- Other possible behaviors that can be customized can be found in P2UXAppBehavior.
-*/
->>>>>>> c707ccbf86de4934277ec5571fa1511da7d9f694:obj-c/SampleApp/SampleBehavior.m
 
 /*!
  @brief Creates a new instance of a screen.
@@ -95,13 +85,7 @@
     return [super createPanelControllerWithDef:def cache:cache index:index data:data viewDelegate:viewDelegate];
 
 }
-<<<<<<< HEAD:obj-c/SampleApp/SampleBehavior.m
-<<<<<<< HEAD:SampleApp/SampleBehavior.m
 
-=======
->>>>>>> c707ccbf86de4934277ec5571fa1511da7d9f694:obj-c/SampleApp/SampleBehavior.m
-=======
->>>>>>> c707ccbf86de4934277ec5571fa1511da7d9f694:obj-c/SampleApp/SampleBehavior.m
 /*!
  @brief Creates a new instance of a panel.
  @discussion This is called from a request to show a panel when a cached version of the panel isn't available. Override this method to return a custom panel instance.
