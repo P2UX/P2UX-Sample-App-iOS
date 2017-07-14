@@ -25,12 +25,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate, P2UXAppCreatorDelegate {
         // version of your application PUB.
 
         var opts : [AnyHashable : Any];
-#if DEBUG
+        //If you would like to set your own resources, uncomment the following lines:
+        //var resources : [Any]?;
+        //var phoneResources: [AnyHashable : Any];
+
         opts = [
             P2UXAppCreator_Opt_Env: P2UXAppCreator_Opt_Env_Prototype,
             P2UXAppCreator_Opt_LogLevel: P2UXCoreLogLevel.verbose.rawValue as NSNumber
         ]
-#endif
+        
+        //If you would like to set your own resources, edit these lines:
+        /*phoneResources = [
+            P2UXApp_PackageAttrib_FormFactor: 0,
+            P2UXApp_PackageAttrib_Type: P2UXApp_PackageType_Static,
+            P2UXApp_PackageAttrib_Package: "shellui_phone",
+            P2UXApp_PackageAttrib_Update: P2UXApp_PackageUpdate_None
+        ]
+        
+        resources = [
+            phoneResources
+        ]*/
+
+        //Then change "resources" from "nil" to "resources" in the following line.
         self.window = P2UXAppCreator.createApplication(withKey: appKey, opts: opts, resources: nil, delegate: self)
         return true
     }
