@@ -1,3 +1,11 @@
+//
+//  SampleViewController.m
+//  SampleApp
+//
+//  Copyright © 2017 P2UX, Inc. All rights reserved.
+//
+
+
 #import "SampleViewController.h"
 
 @interface SampleViewController ()

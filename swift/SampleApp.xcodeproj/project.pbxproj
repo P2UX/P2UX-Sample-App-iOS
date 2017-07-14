@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2978BD3E1F18169900A4AF4F /* shellui_phone in Resources */ = {isa = PBXBuildFile; fileRef = 2978BD3D1F18169900A4AF4F /* shellui_phone */; };
 		AA8BED191F16AE8A002CB085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BED181F16AE8A002CB085 /* AppDelegate.swift */; };
 		AA8BED1B1F16AE8A002CB085 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BED1A1F16AE8A002CB085 /* SampleViewController.swift */; };
 		AA8BED201F16AE8A002CB085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8BED1F1F16AE8A002CB085 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2978BD3D1F18169900A4AF4F /* shellui_phone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shellui_phone; sourceTree = "<group>"; };
 		AA8BED151F16AE8A002CB085 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8BED181F16AE8A002CB085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA8BED1A1F16AE8A002CB085 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		AA8BED171F16AE8A002CB085 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				2978BD3D1F18169900A4AF4F /* shellui_phone */,
 				AA8BED181F16AE8A002CB085 /* AppDelegate.swift */,
 				AA8BED1F1F16AE8A002CB085 /* Assets.xcassets */,
 				AA8BED211F16AE8A002CB085 /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2978BD3E1F18169900A4AF4F /* shellui_phone in Resources */,
 				AA8BED231F16AE8A002CB085 /* LaunchScreen.storyboard in Resources */,
 				AA8BED201F16AE8A002CB085 /* Assets.xcassets in Resources */,
 			);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2978BD3C1F1800D400A4AF4F /* shellui_phone in Resources */ = {isa = PBXBuildFile; fileRef = 2978BD3B1F1800D400A4AF4F /* shellui_phone */; };
 		299DBE491F145056004285F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE481F145056004285F3 /* main.m */; };
 		299DBE4C1F145056004285F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE4B1F145056004285F3 /* AppDelegate.m */; };
 		299DBE4F1F145056004285F3 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299DBE4E1F145056004285F3 /* SampleViewController.m */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2978BD3B1F1800D400A4AF4F /* shellui_phone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shellui_phone; sourceTree = "<group>"; };
 		299DBE441F145056004285F3 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299DBE481F145056004285F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		299DBE4A1F145056004285F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		299DBE471F145056004285F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2978BD3B1F1800D400A4AF4F /* shellui_phone */,
 				299DBE481F145056004285F3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -257,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2978BD3C1F1800D400A4AF4F /* shellui_phone in Resources */,
 				299DBE571F145056004285F3 /* LaunchScreen.storyboard in Resources */,
 				299DBE541F145056004285F3 /* Assets.xcassets in Resources */,
 			);
