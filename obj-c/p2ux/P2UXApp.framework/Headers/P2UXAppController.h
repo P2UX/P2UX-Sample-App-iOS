@@ -145,7 +145,7 @@ extern NSString* const UPDATE_CONTENTS_NOW;
 - (void) handleTimeUpdate;
 - (id<P2UXHelperDelegate>) helperDelegate;
 - (void) showOverlaysForCurrentView;
-- (void) removeOverlay;
+- (void) removeOverlay:(NSString*)removeOverlay;
 
 #pragma mark - P2UXPanelDelegate
 - (void) viewDidClose:(id)view;

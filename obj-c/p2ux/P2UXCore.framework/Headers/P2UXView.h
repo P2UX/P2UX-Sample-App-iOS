@@ -17,7 +17,7 @@
 #import <P2UXCore/P2UXHelperDelegate.h>
 #import <P2UXCore/P2UXScreenOrientation.h>
 
-extern NSString* P2UXView_Attribute_DragHandle;
+extern NSString* const P2UXView_Attribute_DragHandle;
 
 @class P2UXBehavior, P2UXButton2, P2UXApplication, P2UXElementInstance, P2UXVarLinks, P2UXScreenOrientation;
 

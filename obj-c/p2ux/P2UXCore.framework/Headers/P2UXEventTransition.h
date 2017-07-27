@@ -44,7 +44,7 @@ typedef void (^TransitionComplete)(UIView* view, BOOL reverse);
 @interface P2UXEventTransition : NSObject
 {
     NSDictionary*           _desc;
-    P2UXTransitionSequence      _sequence;
+    P2UXTransitionSequence  _sequence;
     NSMutableArray*         _delegates;
     NSMutableDictionary*    _transitionData;
 }
@@ -52,11 +52,12 @@ typedef void (^TransitionComplete)(UIView* view, BOOL reverse);
 @property (nonatomic, weak)     OSViewClass* source;
 @property (nonatomic, readonly) NSString* ref;
 @property (nonatomic)           BOOL reverse;
+@property (nonatomic)           BOOL outgoing;
 @property (nonatomic, readonly) CGFloat duration;
 @property (nonatomic)           id data;
 @property (nonatomic)           CGFloat delay;
 @property (nonatomic, readonly) P2UXTransitionBackHistory backHistory;
-@property (nonatomic) BOOL below;
+@property (nonatomic) BOOL      below;
 @property (nonatomic) NSDictionary* rect;
 @property (nonatomic) BOOL      valid;
 @property (nonatomic) BOOL      isDefault;

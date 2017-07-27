@@ -34,6 +34,7 @@
 @property (nonatomic, readonly) BOOL initialized;
 @property (nonatomic, readonly) NSArray<UIView*> *overlays;
 @property (nonatomic, readonly) NSMutableArray* controlsOrder;
+@property (nonatomic) NSDictionary*   background;
 
 
 + (instancetype) createScreenStateFromDef:(P2UXScreenStateDefinition*)def;

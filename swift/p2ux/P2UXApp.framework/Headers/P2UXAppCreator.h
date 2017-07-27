@@ -11,7 +11,7 @@
 
 extern NSString* _Nonnull const P2UXAppCreator_Opt_Env;
 extern NSString* _Nonnull const P2UXAppCreator_Opt_Env_Production;
-extern NSString* _Nonnull const P2UXAppCreator_Opt_Env_Prototype;
+extern NSString* _Nonnull const P2UXAppCreator_Opt_Env_Stage;
 extern NSString* _Nonnull const P2UXAppCreator_Opt_LogLevel;
 
 @protocol P2UXAppCreatorDelegate <NSObject>

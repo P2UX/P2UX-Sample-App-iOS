@@ -18,5 +18,6 @@
 - (BOOL) boolValueForKey:(NSString*)key defaultValue:(BOOL)defaultValue;
 - (float) floatValueForKey:(NSString*)key defaultValue:(float)defaultValue;
 - (NSInteger) integerValueForKey:(NSString*)key defaultValue:(NSInteger)defaultValue;
-- (id) objectForPath:(NSString*)path;
+- (id) objectForPath:(const NSString*)path;
+- (BOOL) objectForKeyRemovable:(const NSString*)key obj:(id*)obj;
 @end
