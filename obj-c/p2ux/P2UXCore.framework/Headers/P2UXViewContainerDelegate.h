@@ -16,6 +16,7 @@
 - (void)        showPanelFromAction:(P2UXEventAction*)action;
 - (void)        hidePanelFromAction:(P2UXEventAction*)action;
 - (void)        setAppStateFromAction:(P2UXEventAction*)action;
+- (void)        hidePanel:(NSString*)systemType transition:(P2UXEventTransition*)transition;
 - (NSDictionary*) nativeDialogWithIdent:(NSString*)ident;
 - (void)        clearBackStack;
 - (P2UXView*)   currentView;

@@ -21,7 +21,6 @@ extern NSString* const TypeClass_View;
 {
     NSDictionary*           _fonts;
     NSMutableDictionary*    _controlsMap;
-    NSMutableDictionary*    _transitions;
     NSString*               _assetPath;
 }
 @property (nonatomic, readonly) P2UXScreenNavigation* navigation;
@@ -68,7 +67,6 @@ extern NSString* const TypeClass_View;
 
 - (BOOL) boolAttributeWithName:(NSString*)name defaultValue:(BOOL)value;
 - (void) cleanup;
-- (P2UXEventTransition*) transitionWithName:(NSString*)name;
 - (BOOL) hasIdentOrSystemType:(NSString*)identOrSystemType;
 //- (P2UXScreenOrientation*) changeOrientation:(P2UXOrientationType)orientationType;
 //- (P2UXScreenOrientation*) orientationForType:(P2UXOrientationType)orientationType;

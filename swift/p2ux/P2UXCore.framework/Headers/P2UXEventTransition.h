@@ -50,7 +50,6 @@ typedef void (^TransitionComplete)(UIView* view, BOOL reverse);
 }
 @property (nonatomic, readonly) NSDictionary* desc;
 @property (nonatomic, weak)     OSViewClass* source;
-@property (nonatomic, readonly) NSString* ref;
 @property (nonatomic)           BOOL reverse;
 @property (nonatomic)           BOOL outgoing;
 @property (nonatomic, readonly) CGFloat duration;

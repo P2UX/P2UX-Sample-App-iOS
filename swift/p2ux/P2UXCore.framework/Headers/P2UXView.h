@@ -148,7 +148,6 @@ extern NSString* const P2UXView_Attribute_DragHandle;
 - (void) postEventHandler:(P2UXElementInstance*)element actions:(NSArray*)actions;
 - (void) setViewState:(NSString *)viewState;
 - (void) setViewState:(NSString *)viewState notify:(BOOL)notify;
-- (void) handleAppStateChanged:(NSNotification*)appState;
 
 - (BOOL) selectRadioButton:(P2UXElementInstance*)element radioName:(NSString*)radioName triggerEvents:(BOOL)triggerEvents;
 

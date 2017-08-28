@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, ProgressFillMode) {
     ProgressFillMode_Fill
 };
 
-@interface P2UXProgress : UIView
+@interface P2UXProgress : UIControl
 {
     P2UXDisplayLayout*            _curLayout;
     BOOL                        _thumbVisibility;

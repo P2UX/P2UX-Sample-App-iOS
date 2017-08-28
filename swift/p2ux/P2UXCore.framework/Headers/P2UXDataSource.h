@@ -36,7 +36,7 @@ extern NSString* const P2UXSpecKey_Validity;
 extern NSString* const P2UXSpecKey_Refresh;
 extern NSString* const P2UXSpecKey_Object;
 extern NSString* const P2UXSpecKey_Delegate;
-extern NSString* const SpeckKey_KeepAlive;
+extern NSString* const P2UXSpecKey_KeepAlive;
 
 extern NSString* const P2UXSpecKey_UKeys;
 

@@ -27,4 +27,5 @@ extern NSString* const P2UXDataSourceType_Rest;
 - (NSString*) mapTypeForType:(NSString*)type;
 - (BOOL) addFilter:(id<P2UXDataSourceFilter>)filter;
 - (id<P2UXDataSourceFilter>) filterForType:(P2UXSchemaType)type name:(NSString*)name;
+- (void) clearAllResults:(BOOL)includePersisted;
 @end
