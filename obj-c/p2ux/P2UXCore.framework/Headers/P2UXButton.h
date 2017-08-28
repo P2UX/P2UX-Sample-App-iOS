@@ -99,6 +99,7 @@ extern NSString* const P2UXButton_Default_Label_Color;
 @property (nonatomic) BOOL labelHidden;
 @property (nonatomic) NSInteger currentState;
 @property (nonatomic) NSString* btnType;
+@property (nonatomic) id value;
 
 + (CALayer*) createShadowMask:(NSDictionary*)shadowSpec shapeType:(NSString*)shapeType rect:(CGRect)rect borders:(NSArray*)borders borderMask:(UIBezierPath*)borderMaskPath viewDelegate:(id<P2UXViewContainerDelegate>)viewDelegate;
 

@@ -43,6 +43,7 @@ typedef enum {
 - (void) displayAsOverlay:(UIView*)parent state:(P2UXScreenState*)state;
 - (void) close;
 - (void) closeNow;
+- (void) setTimeout:(NSTimeInterval)timeout;
 
 - (BOOL) boolAttributeWithType:(NSString*)type defValue:(BOOL)defValue;
 - (void) closePopup;
@@ -55,4 +56,6 @@ typedef enum {
 
 - (void) activateConstraints;
 - (void) deactivateConstraints;
+- (void) addElementInstance:(P2UXElementInstance*)inst screen:(NSString*)screenIdent;
+- (void) restoreElementInstance:(NSString*)screenIdent reapply:(BOOL)reapply;
 @end

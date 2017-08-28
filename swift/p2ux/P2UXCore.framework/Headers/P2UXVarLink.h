@@ -116,6 +116,7 @@ extern NSString* const P2UXVarLink_Message_OneParam_Fmt;
 @property (nonatomic,readonly) BOOL autoUpdate;
 @property (nonatomic,readonly) BOOL encode;
 @property (nonatomic,readonly) NSArray* paths;
+@property (nonatomic)          BOOL disabled;
 
 + (NSString*) notificationMsg:(NSInteger)itemType;
 + (P2UXVarMessageType) notificationMsgType:(NSInteger)itemType;

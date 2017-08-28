@@ -17,6 +17,7 @@
 
 extern NSString* const P2UXApp_Type;
 extern NSString* const P2UXApp_App_Dir;
+extern NSString* const P2UXNavigation_Header_Default;
 
 typedef NS_ENUM(NSInteger, P2UXStatusBar) {
     P2UXStatusBar_Default = -1,
@@ -57,7 +58,6 @@ typedef NS_ENUM(NSInteger, P2UXStatusBar) {
 @property (nonatomic, readonly) NSString* assetPath;
 @property (nonatomic, readonly) BOOL external;
 @property (nonatomic, readonly) P2UXPaletteManager* palettes;
-@property (nonatomic, readonly) P2UXScreenNavigation* navigation;
 
 - (id)                initWithAppID:(NSString*)appId behavior:(P2UXAppBehavior*)behavior;
 - (id)                initFromBundleWithAppID:(NSString *)appId dir:(NSString*)dir behavior:(P2UXAppBehavior *)behavior;
@@ -69,6 +69,8 @@ typedef NS_ENUM(NSInteger, P2UXStatusBar) {
 - (NSArray*)          eventsWithEventType:( P2UXElementEvent)eventType;
 
 - (void)              resetEvents;
+
+- (P2UXScreenNavigation*) headerNavigationWithName:(NSString*)name;
 
 #pragma mark - Form Factor methods
 - (P2UXAppFormFactor*) supplementalFormFactor:(P2UXFormFactor)type;

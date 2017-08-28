@@ -13,6 +13,7 @@
 #import <P2UXCore/P2UXData.h>
 #import <P2UXCore/P2UXEventTransition.h>
 #import <P2UXCore/P2UXScrollContainerContents.h>
+#import <P2UXCore/P2UXScreenState.h>
 
 @class P2UXApplication;
 @class P2UXView;
@@ -55,7 +56,7 @@ extern NSString* const P2UXScrollContainer_Attribute_PageIndex;
 @property (nonatomic)           NSString*     exportType;
 @property (nonatomic, readonly) NSArray*      controls;
 
-- (id) initWithFrame:(CGRect)frame elemInst:(P2UXElementInstance*)elemInst uipath:(NSString *)path ext:(BOOL)ext handler:(id<P2UXActionDelegate>)handler parentDef:(P2UXScreenStateDefinition*)parentDef viewDelegate:(id<P2UXViewContainerDelegate>)viewDelegate index:(id)index data:(id)data;
+- (id) initWithFrame:(CGRect)frame elemInst:(P2UXElementInstance*)elemInst uipath:(NSString *)path ext:(BOOL)ext handler:(id<P2UXActionDelegate>)handler parentDef:(P2UXScreenStateDefinition*)parentDef viewDelegate:(id<P2UXViewContainerDelegate>)viewDelegate index:(id)index data:(id)data stateDelegate:(id<P2UXScreenStateDelegate>)stateDelegate;
 
 - (void) scrollToView:(NSString*)ident animated:(NSNumber*)anim;
 - (P2UXElementInstance*) elementInstanceWithTag:(NSInteger)tag;

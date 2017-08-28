@@ -11,7 +11,7 @@
 
 extern NSString* _Nonnull const P2UXAppCreator_Opt_Env;
 extern NSString* _Nonnull const P2UXAppCreator_Opt_Env_Production;
-extern NSString* _Nonnull const P2UXAppCreator_Opt_Env_Prototype;
+extern NSString* _Nonnull const P2UXAppCreator_Opt_Env_Stage;
 extern NSString* _Nonnull const P2UXAppCreator_Opt_LogLevel;
 
 @protocol P2UXAppCreatorDelegate <NSObject>
@@ -38,11 +38,15 @@ extern NSString* _Nonnull const P2UXAppCreator_Opt_LogLevel;
  @return Returns an instance of a UIWindow. This window is automatically setup to be the current active window for the application.
  */
 + (UIWindow* _Nonnull) createApplicationWithKey:(nonnull NSString*)appkey opts:(nullable NSDictionary*)opts resources:(nullable NSArray*)resources delegate:(nullable id<P2UXAppCreatorDelegate>)delegate;
+/// :nodoc:
 + (BOOL) openURL:(nonnull NSURL*)url withAnnotation:(nullable id)annotation;
+/// :nodoc:
 + (void) listenForUpdates:(BOOL)listen;
+/// :nodoc:
 + (void) reloadCurrentApplicationAndForceUpdate:(BOOL)forceLoad;
 
 #if !TARGET_OS_TV
+/// :nodoc:
 + (UIInterfaceOrientationMask) supportedInterfaceOrientationsForWindow:(nonnull UIWindow *)window;
 #endif
 @end

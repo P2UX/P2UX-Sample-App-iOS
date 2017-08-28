@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, P2UXAppCreatorDelegate {
         //var phoneResources: [AnyHashable : Any];
 
         opts = [
-            P2UXAppCreator_Opt_Env: P2UXAppCreator_Opt_Env_Prototype,
+            P2UXAppCreator_Opt_Env: P2UXAppCreator_Opt_Env_Production,
             P2UXAppCreator_Opt_LogLevel: P2UXCoreLogLevel.verbose.rawValue as NSNumber
         ]
         

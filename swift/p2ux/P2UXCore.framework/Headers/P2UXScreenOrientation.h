@@ -21,6 +21,7 @@
 @property (nonatomic, readonly) NSString* stateName;
 @property (nonatomic, readonly) NSArray<UIView*> *overlays;
 @property (nonatomic, readonly) BOOL initialized;
+@property (nonatomic, readonly) NSDictionary* background;
 
 - (instancetype) initWithSpec:(P2UXScreenStateDefinition*)statedef;
 - (void) cleanup;

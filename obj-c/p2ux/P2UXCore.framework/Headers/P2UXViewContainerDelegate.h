@@ -16,6 +16,7 @@
 - (void)        showPanelFromAction:(P2UXEventAction*)action;
 - (void)        hidePanelFromAction:(P2UXEventAction*)action;
 - (void)        setAppStateFromAction:(P2UXEventAction*)action;
+- (void)        hidePanel:(NSString*)systemType transition:(P2UXEventTransition*)transition;
 - (NSDictionary*) nativeDialogWithIdent:(NSString*)ident;
 - (void)        clearBackStack;
 - (P2UXView*)   currentView;
@@ -44,7 +45,7 @@
 - (CGFloat)     scale;
 - (UIView*)     overlayWithFrame:(CGRect)frame elemInst:(P2UXElementInstance*)elemInst uipath:(NSString*)path ext:(BOOL)ext handler:(id<P2UXActionDelegate>)handler index:(id)index data:(id)data;
 - (UIView*)     overlayParent;
-- (void)        removeOverlay:(UIView*)overlay;
+- (void)        removeOverlay:(NSString*)systemType;
 - (P2UXView*)   createViewItemWithDef:(P2UXDefinition*)def rect:(CGRect)rect cache:(BOOL)cache index:(id)index data:(id)data;
 - (void)        handleTimeUpdate;
 - (id<P2UXHelperDelegate>) helperDelegate;

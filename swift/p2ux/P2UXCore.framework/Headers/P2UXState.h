@@ -23,6 +23,7 @@
 @property (nonatomic, readonly) P2UXElementLayoutDim ignored;
 @property (nonatomic, readonly) float opacity;
 @property (nonatomic, readonly) float rotation;
+@property (nonatomic, readonly) BOOL disabled;
 @property (nonatomic, readonly) NSDictionary* constraints;
 @property (nonatomic, readonly) P2UXCoordinate* x;
 @property (nonatomic, readonly) P2UXCoordinate* y;

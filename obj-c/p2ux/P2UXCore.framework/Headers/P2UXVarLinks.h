@@ -71,6 +71,7 @@ extern NSString* const P2UXVarLinks_VarPrefix;
 - (NSArray*) linksForAttribute:(NSString*)attribute;
 
 - (BOOL) setupNotificationsForCtrl:(id)ctrl notifyHandler:(SEL)notifyHandler;
+- (void) removeNotificationsForCtrl:(id)ctrl;
 - (NSArray*) dataLinksWithIndexUpdates:(NSString*)notification ident:(NSString*)ident altData:(id)altData;
 - (void) updateWithAttribute:(NSString*)attribute usingValue:(id)value andIndex:(id)index;
 - (NSArray*) linksWithoutAttribute:(NSString*)attribute;

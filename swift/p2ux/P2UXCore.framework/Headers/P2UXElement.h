@@ -46,6 +46,7 @@
 @property (nonatomic) P2UXElementLayoutDim ignored;
 @property (nonatomic, readonly) BOOL tagged;
 @property (nonatomic, readonly) BOOL overlay;
+@property (nonatomic, readonly) BOOL disabled;
 
 - (id) initWithDictionary:(NSDictionary*)dict;
 - (void) parse;

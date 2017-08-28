@@ -55,7 +55,7 @@ extern NSString* const UPDATE_CONTENTS_NOW;
  Indicates whether or not this is a primary device screen.
  */
 @property (nonatomic) BOOL primary;
-@property (nonatomic, readonly) P2UXScreenNavigation* navigation;
+@property (nonatomic, readonly) P2UXScreenNavigation* headerNavigation;
 
 - (instancetype) initWithFrame:(CGRect)frame;
 - (instancetype) initWithFormFactor:(P2UXAppFormFactor*)ff def:(P2UXAppDefinition*)def;
@@ -91,6 +91,9 @@ extern NSString* const UPDATE_CONTENTS_NOW;
 
 - (void) presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag completion:(void (^)(void))completion;
 
+#pragma mark - Navigation
+- (P2UXScreenNavigation*) headerNavigationWithName:(NSString*)name;
+
 #pragma mark - Event handlers
 - (void) handleEvents:(NSArray*)events element:(P2UXElementInstance*)element source:(id)source;
 
@@ -107,7 +110,7 @@ extern NSString* const UPDATE_CONTENTS_NOW;
 - (P2UXPanel*) showPanel:(NSString*)ident timeout:(NSNumber*)timeout show:(NSInteger)show pos:(NSDictionary*)pos size:(NSDictionary*)size modalColor:(NSString*)modalColor transition:(P2UXEventTransition*)transition;
 - (void) showPanelFromAction:(P2UXEventAction*)action;
 - (P2UXPanelController*) visiblePanelWithIdent:(NSString*)ident;
-- (void) hidePanel:(NSString*)ident transition:(P2UXEventTransition*)transition;
+- (void) hidePanel:(NSString*)systemType transition:(P2UXEventTransition*)transition;
 - (void) hidePanel:(NSString*)ident fade:(BOOL)fade;
 - (void) hidePanelFromAction:(P2UXEventAction*)action;
 
@@ -145,7 +148,7 @@ extern NSString* const UPDATE_CONTENTS_NOW;
 - (void) handleTimeUpdate;
 - (id<P2UXHelperDelegate>) helperDelegate;
 - (void) showOverlaysForCurrentView;
-- (void) removeOverlay;
+- (void) removeOverlay:(NSString*)removeOverlay;
 
 #pragma mark - P2UXPanelDelegate
 - (void) viewDidClose:(id)view;

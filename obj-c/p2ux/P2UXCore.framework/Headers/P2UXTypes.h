@@ -115,6 +115,7 @@ extern NSString* const P2UXElement_Attrib_Rate;
 extern NSString* const P2UXElement_Attrib_Label;
 extern NSString* const P2UXElement_Attrib_Selected;
 extern NSString* const P2UXElement_Attrib_Enabled;
+extern NSString* const P2UXElement_Attrib_Disabled;
 extern NSString* const P2UXElement_Attrib_Font;
 extern NSString* const P2UXElement_Attrib_Name;
 extern NSString* const P2UXElement_Attrib_Max;
